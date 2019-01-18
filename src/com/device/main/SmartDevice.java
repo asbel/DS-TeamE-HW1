@@ -1,9 +1,29 @@
 package com.device.main;
 
+import java.util.Timer;
+
 public class SmartDevice {
     private String name;
     private int id; //we might need a different data type
     private String currentState;
+    Timer timer;
+    int schedule; // how long after being on should the device turn off.
+
+    public SmartDevice() {
+
+    }
+
+    public int getSchedule() {
+        return schedule;
+    }
+
+    public void setSchedule(int schedule) {
+        this.schedule = schedule;
+    }
+
+    public Timer getTimer() {
+        return timer;
+    }
 
     public int getId() {
         return id;
