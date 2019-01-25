@@ -12,7 +12,7 @@ public class SmartDevice {
     //FUNCTIONALITIES REQUIRED
     //Create a smart device instance
     //Add/remove/delete/TODO: update the smart device in a group of devices
-    //TODO: Move devices between groups
+    //Move devices between groups
     //Turn on/off a device
     //Show the state of all devices
     //Set a timer for a device with a simple trigger (on/off), i.e. turn off device 30 minutes after it was turned on.
