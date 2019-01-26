@@ -51,9 +51,9 @@ public class SmartDevice {
         return currentState;
     }
 
-    public void setCurrentState(String currentState) {
+   /** public void setCurrentState(String currentState) {
         this.currentState = currentState;
-    }
+    }**/
 
     public String toString(){
         return this.id + " " + this.name + " " + this.currentState;
