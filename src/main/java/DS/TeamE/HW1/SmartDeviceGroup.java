@@ -1,4 +1,6 @@
-package com.device.main;
+package main.java.DS.TeamE.HW1;
+
+import main.java.DS.TeamE.HW1.SmartDevice;
 
 import java.util.List;
 

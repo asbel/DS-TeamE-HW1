@@ -1,8 +1,7 @@
-package com.device.test;
+package test.java.DS.TeamE.HW1;
 
-import com.device.main.SmartDevice;
-
-import org.junit.jupiter.api.Test;
+import org.junit.*;
+import main.java.DS.TeamE.HW1.SmartDevice;
 
 public class time {
     SmartDevice device = new SmartDevice();

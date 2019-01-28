@@ -1,4 +1,4 @@
-package com.device.main;
+package main.java.DS.TeamE.HW1;
 
 import java.util.Timer;
 import java.util.TimerTask;
