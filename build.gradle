@@ -29,5 +29,13 @@ dependencies {
     compile 'junit:junit:4.12'
 }
 
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart',
+                   'Implementation-Version': 'version 2.0',
+                   'Main-Class': 'main.java.DS.TeamE.HW1.main'
+    }
+}
+
 // Define the main class for the application
-mainClassName = 'DS.TeamE.HW1.App'
+mainClassName = 'DS.TeamE.HW1.main'

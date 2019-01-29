@@ -58,4 +58,23 @@ public class SmartDeviceGroup{
         return devMoved;
     }
 
+    public boolean updateDevice(int id,String name,String state){
+        boolean devUpdated = false;
+        for(SmartDevice currDev: deviceGroup){
+            //if the device with a matching id is found in the group, it is removed
+            if(currDev.getId() == id){
+                currDev.setName(name);
+                currDev.setCurrentState(state);
+                devUpdated = true;
+            }
+        }
+        return devUpdated;
+    }
+
+    public void printDevices(){
+        for(SmartDevice currDev: deviceGroup){
+            System.out.println(currDev.getName() + ": State: "+ currDev.getCurrentState() + " ID: " + currDev.getId());
+        }
+    }
+
 }
