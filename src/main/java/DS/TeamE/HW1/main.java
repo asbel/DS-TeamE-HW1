@@ -23,7 +23,7 @@ public class main {
         boolean keepgoing = true;
 
         while(keepgoing) {
-            System.out.println("Now you can: add a device(add),remove a device(remove),update a device(update),check the status of your devices(status),or quit(quit)");
+            System.out.println("Now you can: add a device(add),remove a device(remove),update a device(update),check the status of your devices(status), turn off all of the devices(Shut down) or quit(quit)");
             String choice = scan.nextLine();
 
             if (choice.equals("add")) {
@@ -65,6 +65,9 @@ public class main {
 
             } else if (choice.equals("status")){
                 group.printDevices();
+            }else if (choice.equals("Shut down")){
+                     group.turnOffAll();
+                        
             }else{
                 System.out.println("Not recognized, please use: add, remove, update, ,status, quit");
             }
